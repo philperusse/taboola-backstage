@@ -16,7 +16,7 @@
             "type": "vcs",
             "url": "https://github.com/philperusse/laravel-client-api"
         }
-    ]
+    ],
     "autoload": {
         "psr-4": {
             "Taboola\\Backstage\\": "src/"
