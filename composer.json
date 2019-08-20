@@ -8,8 +8,15 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "philperusse/laravel-client-api" : "@dev"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/philperusse/laravel-client-api"
+        }
+    ]
     "autoload": {
         "psr-4": {
             "Taboola\\Backstage\\": "src/"
